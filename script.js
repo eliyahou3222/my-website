@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("שלום! תודה שלחצת :)");
+  alert("i hack u");
 }
