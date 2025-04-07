@@ -1,29 +1,64 @@
+/* הגדרת צבעים וסטיילים כלליים */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa; /* רקע בהיר */
   color: #333;
   text-align: center;
-  direction: rtl;
+  direction: rtl; /* טקסט מימין לשמאל */
   margin: 0;
   padding: 0;
 }
 
-header, footer {
-  background-color: #4caf50;
+/* עיצוב הכותרת */
+header {
+  background-color: #2e7d32; /* ירוק כהה */
   color: white;
-  padding: 20px;
+  padding: 30px;
+  border-bottom: 5px solid #1b5e20; /* קו תחתון */
 }
 
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* עיצוב טקסט הפסקה */
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* עיצוב תוכן מרכזי */
 main {
-  padding: 40px;
+  padding: 50px;
 }
 
+/* עיצוב כפתור */
 button {
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 15px 30px;
+  font-size: 20px;
   background-color: #2196f3;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1976d2; /* שינוי צבע בהעברת עכבר */
+  transform: scale(1.1); /* הגדלת הכפתור בהעברה */
+}
+
+/* עיצוב footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
 }
